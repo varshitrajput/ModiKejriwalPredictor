@@ -3,6 +3,13 @@ Predictor is based on RESNET34 and is used to classify image/images using CNN
 this predictor is currently trained to distinguish between Narendra Modi and Arvind Kejriwal working with an accuracy of 91.7%
 This Web App developed on Flask sits on top of Custom model to provide results
 
+
+Recorder Plot
+![](/chart.png)
+Confusion Matrix
+![](/capture.png)
+
+
 **Initial Commit** :
 
 TOTAL Images : 290
