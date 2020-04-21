@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Modi-Kejri Predictor</title>
+
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         
+        <!-- Boostrap Core CSS-->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}"> 
+        
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        
+        
+       </head>
+   <body>
+   
+   <!-- Start wrapper -->
+   <div class="wrapper">
+  	  <div class="col-md-12">
+         <!-- Logo -->
+         <div class="brand wow fadeIn" data-wow-delay="0.1s"> Modi-Kejri</div>
+           <div class="title"> Predictor </div>
+              <p>UPLOAD IMAGE</p>
+              <hr> 
+                <form action="{{ url_for('predict')}}" method = "POST" enctype="multipart/form-data">
+                <div class="col-md-12">
+                  <p style="font-size: 16px">Select Image</p>
+                  <div class="btn btn-secondary">
+                     <input style="font-size: 12px" type="file" class="custom-file-input" name="image" id="image">
+                        <label class="custom-file-label" for="image"></label>
+                  </div>
+                  </form>
+                 <button type="submit" style="font-size: 12px" class="btn btn-primary">Upload</button>
+              </div>
+              
+            {{pred}}<br>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+</html>
+
