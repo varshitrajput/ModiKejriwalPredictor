@@ -5,9 +5,11 @@ This Web App developed on Flask sits on top of Custom model to provide results
 
 
 Recorder Plot
-![](/chart.png)
+![](/chart.JPG)
+
+
 Confusion Matrix
-![](/capture.png)
+![](/Capture.JPG)
 
 
 **Initial Commit** :
